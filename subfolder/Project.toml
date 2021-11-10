@@ -1,0 +1,9 @@
+name = "L6TestingExercise"
+uuid = "7d3f257e-e45e-49d6-85d2-83c69d4c4ff6"
+authors = ["Deifilia <deifilia.to@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+ReferenceTests = "324d217c-45ce-50fc-942e-d289b448e8cf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
