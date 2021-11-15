@@ -17,7 +17,7 @@ X, P  = acoustic_2D()
 
 # Test just at some random indices. As for larger models,
 # storing the full output array would create really large files!
-inds = [18, 27, 45, 68, 71, 71, 102, 110, 123]
+inds = Int.(ceil.(LinRange(1, length(X), 12)))
 
 d = Dict(:X=> X[inds], :P=>P[inds])
 @testset "Ref-tests" begin
