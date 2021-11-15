@@ -1,5 +1,3 @@
-using Plots
-
 @views function acoustic_2D(;do_visu=false)
     # Physics
     Lx, Ly = 10.0, 10.0
